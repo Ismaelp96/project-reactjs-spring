@@ -41,3 +41,7 @@ button {
 #sales {
   padding: 4rem 1rem;
 }
+
+.react-datepicker_month-container {
+  font-size: 100%;
+}

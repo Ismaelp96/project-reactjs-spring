@@ -107,3 +107,35 @@ dsmeta-sales-table tbody tr:nth-child(odd) {
     display: table-cell;
   }
 }
+
+.react-datepicker .react-datepicker__navigation--previous {
+  top: 10px;
+}
+
+.react-datepicker .react-datepicker__navigation--next {
+  top: 10px;
+}
+
+.react-datepicker .react-datepicker__header {
+  background-color: #283142;
+}
+
+.react-datepicker__header .react-datepicker__current-month {
+  font-size: 1.8rem;
+  color: #cccccc;
+}
+.react-datepicker__header .react-datepicker__day-name {
+  color: #cccccc;
+  font-size: 1.4rem;
+  margin: 0.5rem;
+}
+
+.react-datepicker__month-container {
+  width: 25rem;
+  height: 20rem;
+}
+
+.react-datepicker__month .react-datepicker__day {
+  margin: 0.28rem 0.8rem;
+  font-size: 1.4rem;
+}
