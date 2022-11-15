@@ -1,10 +1,15 @@
-import NotificationButton from "./components/NotificationButton";
+import Header from "./components/Header";
+import CardVendas from "./components/CardVendas";
 
 function App() {
   return (
     <>
-      <h1>olá mundo</h1>
-      <NotificationButton />
+      <Header />
+      <main>
+        <section id="sales">
+          <CardVendas />
+        </section>
+      </main>
     </>
   );
 }
